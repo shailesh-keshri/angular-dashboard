@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
+#Instrcution to use the project locally.
+
+Run `git clone <repo-url> ` to clone the project locally.
+
+Run `npm install` to install all the required dependencies.
+
+Run `ng serve` or `npm start` to run the application.
+
+Copy `http://localhost:4200` and paste it in the browser.
+
+
+# Libraries used in this Angular application:
+# Bootstrap: CSS framework for styling.
+# Bootstrap Icons: Icons library for Bootstrap.
+# Chart.js: JavaScript library for creating charts.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
