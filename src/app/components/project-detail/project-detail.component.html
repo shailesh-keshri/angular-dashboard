@@ -1,0 +1,15 @@
+<div class="container">
+    <h4 class="text-dark pt-2 px-2">{{project?.name}} Details:</h4>    
+    <div class="card">
+      <div class="card-body px-2 py-3 ">
+        <div class="d-flex align-items-center justify-content-between mb-2"><span class="w-50 fw-bold text-primary">Project Title: </span> <span class="w-50" [innerText]="project?.name"></span></div>
+        <div class="d-flex align-items-center justify-content-between mb-2"><span class="w-50 fw-bold text-primary">Project Description: </span> <span class="w-50" [innerText]="project?.description"></span></div>
+        <div class="d-flex align-items-center justify-content-between mb-2"><span class="w-50 fw-bold text-primary">Project Status: </span> <span class="w-50" [innerText]="project?.status"></span></div>
+        <div class="d-flex align-items-center justify-content-between mb-2"><span class="w-50 fw-bold text-primary">Project Deadline: </span> <span class="w-50" [innerText]="project?.deadline | date: 'dd MMM YYYY' "></span></div>
+        <div class="d-flex align-items-center justify-content-between mb-2"><span class="w-50 fw-bold text-primary">Team Members: </span> <span class="w-50" [innerText]="project?.teamMembers?.join(', ')"></span></div>
+      </div>
+    </div>
+
+</div>
+
+  
