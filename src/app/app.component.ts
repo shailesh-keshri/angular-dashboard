@@ -8,10 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'project-dashboard';
 
-  isSidebarToggle: boolean = false;
-
-  toggleSidebar() {
-    this.isSidebarToggle = !this.isSidebarToggle;
-  }
-
 }

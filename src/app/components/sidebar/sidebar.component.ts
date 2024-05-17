@@ -7,10 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class SidebarComponent {
 
-  @Input() sidebarToggle: boolean = false;
-
-  toggleSidebar() {
-    this.sidebarToggle = !this.sidebarToggle;
-  }
   
 }
